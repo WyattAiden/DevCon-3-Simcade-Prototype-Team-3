@@ -40,7 +40,7 @@ public class BoardTiltController : MonoBehaviour
 
         if (inputDir.sqrMagnitude > 0.01f)
         {
-            // Optional: normalize so diagonal tilt isn't stronger than cardinal tilt
+            // normalize so diagonal tilt isn't stronger than cardinal tilt
             inputDir = inputDir.normalized;
 
             // Map vertical input to tilt around local X, horizontal input to tilt around local Z.
