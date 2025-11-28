@@ -22,7 +22,7 @@ public class PlayAgain : MonoBehaviour
         //sends you to the first level
       if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("stage 1");
+            SceneManager.LoadScene("Map");
         }
     }
     
